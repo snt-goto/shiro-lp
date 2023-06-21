@@ -63,7 +63,13 @@ const MobileMenu = ({}: Props) => {
         <span />
         <span />
       </div>
-      <ul css={ulCss} id="nav-list">
+      <ul
+        css={ulCss}
+        id="nav-list"
+        onClick={() => {
+          setOpen(false);
+        }}
+      >
         {mobileNavItems.map((i, n) => {
           return <MobileNav href={i.href} key={n} menu={i.menu} />;
         })}
