@@ -1,0 +1,36 @@
+:root {
+  // background-color, color
+  --black: #000000;
+  --black-transparent-10: rgba(0, 0, 0, 0.1);
+  --color-1: #333333;
+  --color-2: #2B2B2B;
+  --color-3: #EDEDED;
+  --color-4: #A0A0A0;
+  --color-5: #CCCCCC;
+  --transparent: transparent;
+  --white: #ffffff;
+  --white-transparent-60: rgba(255, 255, 255, 0.6);
+  --white-transparent-90: rgba(255, 255, 255, 0.9);
+
+  // font-family
+  --hiragino-kaku-gothic-pron: 'hiragino-kaku-gothic-pron', var(--sans-serif);
+  --myriad-pro: 'myriad-pro', var(--sans-serif);
+  --poppins: 'Poppins', var(--sans-serif);
+  --sans-serif: sans-serif;
+  --serif: serif;
+
+  // height
+  --header-height: 5rem;
+
+  // width
+  --two-column-1: calc((100% - 1rem) / 2);
+  --two-column-2: calc((100% - 2rem) / 2);
+  --two-column-2_5: calc((100% - 2.5rem) / 2);
+  --two-column-3: calc((100% - 3rem) / 2);
+  --two-column-5: calc((100% - 5rem) / 2);
+  --two-column-7_5: calc((100% - 7.5rem) / 2);
+  --three-column-1: calc((100% - 1rem * 2) / 3);
+  --three-column-2: calc((100% - 2rem * 2) / 3);
+}
+
+
