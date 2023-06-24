@@ -1,14 +1,13 @@
 import { ReactNode } from 'react';
-import { Footer, Header, Ogp } from 'components/Layout';
+import { Footer, Hd, Header } from 'components/Layout';
 
 interface Props {
   children: ReactNode;
-  tit?: string;
 }
 
-const Layout = ({ children, tit }: Props) => (
+const Layout = ({ children }: Props) => (
   <>
-    <Ogp tit={tit} />
+    <Hd />
     <Header />
     {children}
     <Footer />
